@@ -1,0 +1,169 @@
+.fundo_nav{
+	background-color: #e08f14;
+	color: white;
+	height: 100%;
+}
+#js{
+	width: 34px;
+}
+.titulos{
+	text-align: center;
+	font-size: 40px;
+	font-family: FreeMono, monospace;
+	font-style: italic;
+}
+p,li{
+	font-size: 20px;
+}
+body{
+	background-color: #DEB887;
+}
+a{
+	text-decoration-line: none;
+}
+footer{
+	background-color: darkgray;
+	text-align: center;
+	padding-bottom: 4%;
+}
+header{
+	background-image: url('../img/teste2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+	font-size: 25px;
+}
+.cre2{
+	color: rgb(214, 41, 11);
+}
+
+.cre2:hover{
+	color: white;
+}
+
+.nome{
+	color: white;
+	font-size: 40px;
+	margin-bottom: 10%;
+}
+.nome2{
+	color: white;
+	font-size: 25px;
+}
+
+.botao{
+	border-radius: 20%;
+	background-color: gray;
+}
+.div2{
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
+.foto{
+	width: 45%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	border:1px solid rgb(0, 0, 0);
+}
+
+#sobre{
+	background-color: tomato;
+}
+
+#text{
+	font-size: 30px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: white;
+	text-align: center;
+	margin-top: 10%;
+}
+
+#esp{
+	background-color: #fceb8d;
+	text-align: center;
+}
+
+.imgs:hover{
+		transition: 1s;
+		transform: rotate(360deg);
+}
+.ani{
+	text-align: center;
+	font-style: italic;
+	animation-duration: 1.5s;
+	animation-name: titulo;
+	animation-iteration-count: infinite;
+	}
+		@keyframes titulo {
+			from{color: darkorange;}
+			to{color: deepskyblue;}
+			}
+
+#hob{
+	text-align: center;
+	background-color: rgb(170, 207, 133);
+}
+#exp{
+	background-color: rgb(212, 100, 100);
+}
+#cont{
+	background-color: rgb(142, 220, 243);
+}
+#comp{
+	background-color: rgb(155, 134, 247);
+}
+.cre{
+	font-size: 11px;
+}
+.linkf{
+	color: rgb(202, 111, 26);
+	font-size: 20px;
+	margin-right: 9%;
+	font-weight: bold;
+}
+.linkf:hover{
+	color: white;
+}
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    text-decoration: none;
+	border-radius: 30%;
+}
+.btn2::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn2:hover::after {
+    margin-top:-8px;
+}
+
+h3{
+	font-size: 25px;
+	font-family: Andale Mono, monospace;
+	margin-top: 5%;
+}
+.card{
+	background-color: rgb(22, 170, 170);
+	border:1px solid rgb(0, 0, 0);
+}
+h5{
+	font-size: 30px;
+	color: rgb(182, 4, 4);
+	font-weight: bold;
+}
